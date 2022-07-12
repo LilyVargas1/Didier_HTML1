@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML2</title>
 </head>
+
 <body>
     <h1>HTML</h1>
+    <!--HyperText Markup Language-->
     <h2>Ejemplo Tabla</h2>
 
     <table>
@@ -96,5 +99,28 @@
 
     <h3>Tipo de rango</h3>
     <input type="range">
+
+    <h2>Formularios</h2>
+    <form>
+        <fieldset>
+            <legend>Datos personales:</legend>
+            <br><br>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+            <br><br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido">
+            <br><br>
+            <label for="sexo">Sexo</label>
+            <select id="sexo">
+                <option value="m">Masculino</option>
+                <option value="f">Femenino</option>
+            </select>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <br><br>
+        </fieldset>
+    </form>
 </body>
+
 </html>
